@@ -11,6 +11,7 @@ Install all the prerequisites using dependencies.sh script provided in the home 
 **Klayout (version:0.27.10-1)**
 
 Please use this command to build preferably: ./build.sh -option '-j8' -noruby -without-qt-multimedia -without-qt-xml -without-qt-svg
+
 **Yosys (version:0.22+70)**
 
 **OpenROAD (version:2.0_5525)**
@@ -23,3 +24,13 @@ Other notice:
 
 **Python 3.7** is used in this generator.
 All the required tools need to be loaded into the environment before running this generator.
+
+# Design Generation
+## Generators
+**Temperature Sensor (temp-sense-gen)**
+A fully automated SoC generator that uses an all-digital temperature sensor architecture, that relies on a new subthreshold oscillator (achieved using the auxiliary cell “Header Cell“) for realizing synthesizable thermal sensors.
+
+**Temperature Sensor Description**
+
+![image](https://user-images.githubusercontent.com/110485513/200106266-2ca32b43-0c40-4acd-95d6-8627350b5f55.png)
+
