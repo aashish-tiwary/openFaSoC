@@ -48,7 +48,7 @@ The generator must first parse the user’s requirements into a high-level circu
 The generator uses this model file to automatically determine the number of headers and inverters, among other necessary modifications that can be made to meet spec. The generator references the model file in an iterative process until either meeting spec or failing. A verilog description is then produced by substituting specifics into several template verilog files.
 
 # Verilog generation
-Running make sky130hd_temp (temp for "temperature sensor") executes the temp-sense-gen.py script from temp-sense-gen/tools/. This file takes the input specifications from test.json and outputs Verilog files containing the description of the circuit.
+Running make sky130hd_temp_verilog (temp for "temperature sensor") executes the temp-sense-gen.py script from temp-sense-gen/tools/. This file takes the input specifications from test.json and outputs Verilog files containing the description of the circuit.
 
 ![image](https://user-images.githubusercontent.com/110485513/200107537-867a419c-839d-438f-a973-03fa3e10d611.png)
 
