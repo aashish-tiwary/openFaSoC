@@ -58,6 +58,7 @@ To run the verilog generation, run the following command:
 
 ![tempver](https://user-images.githubusercontent.com/110485513/200107935-56d261bb-c4dd-4cc3-a0ad-fdf5dcea0040.png)
 
+![src](https://user-images.githubusercontent.com/110485513/200108086-ecde591b-f4fd-49ea-a380-52406ca360c2.png)
 
 
 
