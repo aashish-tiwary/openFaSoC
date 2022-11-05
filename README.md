@@ -56,6 +56,8 @@ To run the verilog generation, run the following command:
 
 ```make sky130hd_temp_verilog```
 
-![maketempveri](https://user-images.githubusercontent.com/110485513/200107814-2e6d23ad-8322-435d-8daa-23a938743820.png)
+![tempver](https://user-images.githubusercontent.com/110485513/200107935-56d261bb-c4dd-4cc3-a0ad-fdf5dcea0040.png)
+
+
 
 
