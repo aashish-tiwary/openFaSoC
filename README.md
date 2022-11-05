@@ -50,5 +50,6 @@ The generator uses this model file to automatically determine the number of head
 # Verilog generation
 Running make sky130hd_temp (temp for "temperature sensor") executes the temp-sense-gen.py script from temp-sense-gen/tools/. This file takes the input specifications from test.json and outputs Verilog files containing the description of the circuit.
 
+![image](https://user-images.githubusercontent.com/110485513/200107537-867a419c-839d-438f-a973-03fa3e10d611.png)
 
 
