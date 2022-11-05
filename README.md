@@ -52,4 +52,7 @@ Running make sky130hd_temp (temp for "temperature sensor") executes the temp-sen
 
 ![image](https://user-images.githubusercontent.com/110485513/200107537-867a419c-839d-438f-a973-03fa3e10d611.png)
 
+To run the verilog generation, run the following command:
+
+```make sky130hd_temp_verilog```
 
