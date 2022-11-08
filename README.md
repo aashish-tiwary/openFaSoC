@@ -27,6 +27,7 @@ All the required tools need to be loaded into the environment before running thi
 
 # Design Generation
 ## Generators
+### Design 1: 
 **Temperature Sensor (temp-sense-gen)**
 A fully automated SoC generator that uses an all-digital temperature sensor architecture, that relies on a new subthreshold oscillator (achieved using the auxiliary cell “Header Cell“) for realizing synthesizable thermal sensors.
 
@@ -63,5 +64,8 @@ The screenshot of the files created after running the make command is given belo
 
 ![src](https://user-images.githubusercontent.com/110485513/200108086-ecde591b-f4fd-49ea-a380-52406ca360c2.png)
 
+### Design 2:
+**PLL**
+![image](https://user-images.githubusercontent.com/110485513/200523197-14a98e56-50da-4b61-a0e3-2ba4e77e06d3.png)
 
 
