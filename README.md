@@ -71,5 +71,18 @@ The phase difference of the reference and output clocks are captured by the embe
 
 ![image](https://user-images.githubusercontent.com/110485513/200524208-8d4a6edd-17f4-4078-912c-57fbd9cf583f.png)
 
+# Contributors
+* Aashish Tiwary
+* Kunal Ghosh
+# Acknowledgments
+Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+
+
+Contact Information
+Aashish Tiwary, Postgraduate Student, International Institute of Information Technology, Bangalore aashish.tiwary@iiitb.ac.in Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+
+Citations:
+Tutu Ajayi et al., ["An Open-source Framework for Autonomous SoC Design with Analog Block Generation,"](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9344104) 2020 IFIP/IEEE 28th International Conference on Very Large Scale Integration (VLSI-SOC), 2020, pp. 141-146.
+
 
 
