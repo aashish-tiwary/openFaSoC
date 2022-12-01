@@ -69,7 +69,6 @@ The screenshot of the files created after running the make command is given belo
 A phase-locked loop or phase lock loop (PLL) is a control system that generates an output signal whose phase is related to the phase of an input signal.
 The phase difference of the reference and output clocks are captured by the embedded time-todigital converter (TDC), while the digital filter calculates the frequency control word for the digitally controlled oscillator (DCO). The input specification to the generator defines the nominal frequency range and in-band phase noise (PN). The PLL generator uses a physics-based mathematical model for characterization. We first build a mathematical relationship between DCO design parameters (number of aux-cells and stages) and the required DCO specifications. Using simulation results from a parametric sweep, we then find the effective ratio of drive strength and capacitance for each aux-cell. This ratio enables us to predict frequency and power results (frequency range, frequency resolution, frequency gain factor, and power consumption) given a set of input design parameters.
 
-![image](https://user-images.githubusercontent.com/110485513/200524208-8d4a6edd-17f4-4078-912c-57fbd9cf583f.png)
 
 # Contributors
 * Aashish Tiwary
