@@ -85,6 +85,19 @@ The synthesis is run using Yosys to find the appropriate circuit implementation 
 ![syhth](https://user-images.githubusercontent.com/110485513/206892463-e7f03a3c-c9d5-4054-b73d-42bee2a4c13e.png)
 ![image](https://user-images.githubusercontent.com/110485513/206892681-d487dc3b-0a85-4bd6-84a0-3fd771b04211.png)
 
+## 3. Floorplan
+
+![floorplan](https://user-images.githubusercontent.com/110485513/207376920-e0e1c307-5de8-46e9-b64a-5598d31db5f5.png)
+![floorplan1](https://user-images.githubusercontent.com/110485513/207376935-0c7b2da8-b950-44ab-b376-d8055b002530.png)
+
+# 4. Placement
+
+![placement1](https://user-images.githubusercontent.com/110485513/207377947-39404714-5c88-461c-9043-b205f71e1449.png)
+![placement2](https://user-images.githubusercontent.com/110485513/207377975-054ce44e-43a3-40fa-a7eb-2caa9a2e5c73.png)
+
+# 5. Routing
+
+![routing1](https://user-images.githubusercontent.com/110485513/207378082-13e9c999-c9f7-4d7a-ae1a-799b9890b6be.png)
 
 # Contributors
 * Aashish Tiwary
