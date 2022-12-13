@@ -87,8 +87,8 @@ The synthesis is run using Yosys to find the appropriate circuit implementation 
 
 ## 3. Floorplan
 
-![floorplan](https://user-images.githubusercontent.com/110485513/207376920-e0e1c307-5de8-46e9-b64a-5598d31db5f5.png)
 ![floorplan1](https://user-images.githubusercontent.com/110485513/207376935-0c7b2da8-b950-44ab-b376-d8055b002530.png)
+
 
 # 4. Placement
 
