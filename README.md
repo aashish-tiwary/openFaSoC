@@ -97,7 +97,7 @@ Running make sky130hd_pll_verilog executes the pll-gen.py script from pll-gen/to
 The OpenROAD Flow starts with a flow configuration file config.mk, the chosen platform (sky130hd, for example) and the Verilog files are generated from the previous part.
 The synthesis is run using Yosys to find the appropriate circuit implementation from the available cells in the platform.
 
- ## Syhthesis
+ ## Synthesis
 
 ![syhth](https://user-images.githubusercontent.com/110485513/206892463-e7f03a3c-c9d5-4054-b73d-42bee2a4c13e.png)
 ![image](https://user-images.githubusercontent.com/110485513/206892681-d487dc3b-0a85-4bd6-84a0-3fd771b04211.png)
@@ -115,6 +115,12 @@ The synthesis is run using Yosys to find the appropriate circuit implementation 
 # Routing
 
 ![routing1](https://user-images.githubusercontent.com/110485513/207378082-13e9c999-c9f7-4d7a-ae1a-799b9890b6be.png)
+![routing2](https://user-images.githubusercontent.com/110485513/207850213-b1ff2330-b0f9-4c61-a933-57add14f38fa.png)
+
+# Final Layout
+
+![PLLgds](https://user-images.githubusercontent.com/110485513/207850162-22534909-f8a4-47db-918f-ba8b3d6c35d8.png)
+
 
 # Contributors
 * Aashish Tiwary
