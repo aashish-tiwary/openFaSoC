@@ -86,32 +86,33 @@ A phase-locked loop or phase lock loop (PLL) is a control system that generates 
 The phase difference of the reference and output clocks are captured by the embedded time-todigital converter (TDC), while the digital filter calculates the frequency control word for the digitally controlled oscillator (DCO). The input specification to the generator defines the nominal frequency range and in-band phase noise (PN). The PLL generator uses a physics-based mathematical model for characterization. We first build a mathematical relationship between DCO design parameters (number of aux-cells and stages) and the required DCO specifications. Using simulation results from a parametric sweep, we then find the effective ratio of drive strength and capacitance for each aux-cell. This ratio enables us to predict frequency and power results (frequency range, frequency resolution, frequency gain factor, and power consumption) given a set of input design parameters.
 
 # Generator Flow
-## 1. Verilog Generation
+##  Verilog Generation
 
 Running make sky130hd_pll_verilog executes the pll-gen.py script from pll-gen/tools/. This file takes the input specifications from test.json and outputs Verilog files containing the description of the circuit.
 
 ![verilog](https://user-images.githubusercontent.com/110485513/206892080-3e9646f3-7788-4916-b57b-ecb631e4342c.png)
 
-## 2. Synthesis
+## SRTL to GDS Flow
 
 The OpenROAD Flow starts with a flow configuration file config.mk, the chosen platform (sky130hd, for example) and the Verilog files are generated from the previous part.
 
 The synthesis is run using Yosys to find the appropriate circuit implementation from the available cells in the platform.
+ ## Syhthesis
 
 ![syhth](https://user-images.githubusercontent.com/110485513/206892463-e7f03a3c-c9d5-4054-b73d-42bee2a4c13e.png)
 ![image](https://user-images.githubusercontent.com/110485513/206892681-d487dc3b-0a85-4bd6-84a0-3fd771b04211.png)
 
-## 3. Floorplan
+## Floorplan
 
 ![floorplan1](https://user-images.githubusercontent.com/110485513/207376935-0c7b2da8-b950-44ab-b376-d8055b002530.png)
 ![floorplan2](https://user-images.githubusercontent.com/110485513/207384069-10ff77ae-a6c6-4eaf-90e7-3d445ea66a58.png)
 
-# 4. Placement
+# Placement
 
 ![placement1](https://user-images.githubusercontent.com/110485513/207377947-39404714-5c88-461c-9043-b205f71e1449.png)
 ![placement2](https://user-images.githubusercontent.com/110485513/207377975-054ce44e-43a3-40fa-a7eb-2caa9a2e5c73.png)
 
-# 5. Routing
+# Routing
 
 ![routing1](https://user-images.githubusercontent.com/110485513/207378082-13e9c999-c9f7-4d7a-ae1a-799b9890b6be.png)
 
