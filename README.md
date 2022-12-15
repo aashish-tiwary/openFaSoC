@@ -64,6 +64,22 @@ The screenshot of the files created after running the make command is given belo
 
 ![src](https://user-images.githubusercontent.com/110485513/200108086-ecde591b-f4fd-49ea-a380-52406ca360c2.png)
 
+# RTL to GDS Flow
+
+The “compilation” from the Verilog description to a physical circuit is made using a fork of OpenROAD Flow, which is an RTS-to-GDS flow based on the OpenROAD tool. The fork is in the temp-sense-gen/flow/ directory.
+
+OpenROAD Flow takes a design from the temp-sense-gen/flow/design/ directory and runs it through its flow, generating a DEF and a GDS at the end. The design is specified by using the generated Verilog files and a config.mk file that configures OpenROAD Flow to the temperature sensor design.
+
+![flowtmop](https://user-images.githubusercontent.com/110485513/207825109-513a0b9b-cd75-42f9-b97a-bafb742ee7a8.png)
+
+At the end, OpenROAD Flow will output its logs under flow/reports/, and its results under flow/results/.
+
+Here’s a final layout after routing.
+
+![temp_gds](https://user-images.githubusercontent.com/110485513/207824746-b663fd6b-96d7-4595-bda2-32f5089b96f3.png)
+
+
+
 ### Design 2:
 **PLL**
 A phase-locked loop or phase lock loop (PLL) is a control system that generates an output signal whose phase is related to the phase of an input signal.
